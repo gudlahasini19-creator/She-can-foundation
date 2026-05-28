@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>She Can Foundation | Empowering Women</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ══════════════════════════════════════
+     NAVBAR
+══════════════════════════════════════ -->
+<nav id="navbar">
+  <div class="nav-logo">She<span> Can</span> Foundation</div>
+  <ul class="nav-links">
+    <li><a href="#" onclick="goTo('home');return false;">Home</a></li>
+    <li><a href="#" onclick="goTo('about');return false;">About</a></li>
+    <li><a href="#" onclick="goTo('programs');return false;">Programs</a></li>
+    <li><a href="#" onclick="goTo('stories');return false;">Stories</a></li>
+    <li><a href="#" onclick="goTo('volunteer');return false;" class="btn btn-primary">Join Us</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- MOBILE NAV -->
+<nav class="mobile-nav" id="mobileNav">
+  <a href="#" onclick="goTo('home');return false;">Home</a>
+  <a href="#" onclick="goTo('about');return false;">About</a>
+  <a href="#" onclick="goTo('programs');return false;">Programs</a>
+  <a href="#" onclick="goTo('stories');return false;">Stories</a>
+  <a href="#" onclick="goTo('volunteer');return false;" class="btn btn-primary">Join Us 💛</a>
+</nav>
+
+
+<!-- ══════════════════════════════════════
+     HOME / HERO
+══════════════════════════════════════ -->
+<section id="home">
+  <div class="hero-wrap">
+    <div class="hero-blob"></div>
+    <div class="hero-blob2"></div>
+
+    <div class="hero-grid container">
+
+      <!-- Left: Content -->
+      <div class="hero-content">
+        <div class="section-tag hero-tag">🌸 Govt. Registered NGO · Societies Registration Act, 1860</div>
+        <h1>She <em>Can</em><br>Change<br>The World.</h1>
+        <p>She Can Foundation is a registered NGO dedicated to uplifting and empowering underprivileged women — providing education, training, and resources to help women from marginalized communities overcome obstacles and achieve their full potential.</p>
+        <div class="hero-btns">
+          <button class="btn btn-primary" onclick="goTo('volunteer')">Volunteer With Us 💛</button>
+          <button class="btn btn-outline" onclick="goTo('about')">Our Story</button>
+        </div>
+        <div class="hero-stats">
+  <div>
+    <div class="stat-num">🌸</div>
+    <div class="stat-lbl">Women Empowerment</div>
+  </div>
+
+  <div>
+    <div class="stat-num">📚</div>
+    <div class="stat-lbl">Education Support</div>
+  </div>
+
+  <div>
+    <div class="stat-num">💛</div>
+    <div class="stat-lbl">Community Impact</div>
+  </div>
+</div>
+</div>
+      <!-- Right: Illustration -->
+      <div class="hero-illus">
+        <div class="illus-frame">
+          <!-- Inline SVG: 3 women celebrating -->
+          <svg viewBox="0 0 480 600" xmlns="http://www.w3.org/2000/svg">
+            <rect width="480" height="600" fill="#f5e6d3"/>
+            <!-- background shapes -->
+            <circle cx="390" cy="70" r="130" fill="rgba(232,67,90,0.10)"/>
+            <circle cx="50" cy="520" r="100" fill="rgba(201,136,42,0.10)"/>
+            <!-- ground shadow -->
+            <ellipse cx="240" cy="548" rx="205" ry="28" fill="rgba(61,35,20,0.07)"/>
+
+            <!-- ─ Woman Centre ─ -->
+            <!-- body -->
+            <rect x="196" y="218" width="88" height="115" rx="18" fill="#e8435a"/>
+            <!-- legs -->
+            <rect x="202" y="328" width="30" height="96" rx="12" fill="#c97a5a"/>
+            <rect x="248" y="328" width="30" height="96" rx="12" fill="#c97a5a"/>
+            <!-- head -->
+            <circle cx="240" cy="168" r="52" fill="#e8c4a0"/>
+            <!-- hair -->
+            <ellipse cx="240" cy="138" rx="52" ry="28" fill="#2a1a0e"/>
+            <rect x="188" y="132" width="20" height="52" rx="10" fill="#2a1a0e"/>
+            <rect x="272" y="132" width="20" height="52" rx="10" fill="#2a1a0e"/>
+            <!-- face -->
+            <circle cx="224" cy="168" r="5.5" fill="#3d2314"/>
+            <circle cx="256" cy="168" r="5.5" fill="#3d2314"/>
+            <path d="M228 186 Q240 197 252 186" stroke="#3d2314" stroke-width="2.8" fill="none" stroke-linecap="round"/>
+            <!-- arms raised -->
+            <line x1="196" y1="248" x2="148" y2="198" stroke="#e8c4a0" stroke-width="16" stroke-linecap="round"/>
+            <line x1="284" y1="248" x2="332" y2="198" stroke="#e8c4a0" stroke-width="16" stroke-linecap="round"/>
+
+            <!-- ─ Woman Left ─ -->
+            <rect x="82" y="262" width="74" height="100" rx="16" fill="#c9882a"/>
+            <rect x="87" y="358" width="26" height="84" rx="11" fill="#b07840"/>
+            <rect x="117" y="358" width="26" height="84" rx="11" fill="#b07840"/>
+            <circle cx="119" cy="215" r="44" fill="#d4956a"/>
+            <ellipse cx="119" cy="188" rx="44" ry="24" fill="#2a1a0e"/>
+            <rect x="75" y="181" width="17" height="44" rx="8" fill="#2a1a0e"/>
+            <circle cx="106" cy="216" r="4.5" fill="#2a1a0e"/>
+            <circle cx="132" cy="216" r="4.5" fill="#2a1a0e"/>
+            <path d="M109 232 Q119 241 129 232" stroke="#2a1a0e" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+            <line x1="82" y1="295" x2="44" y2="254" stroke="#d4956a" stroke-width="13" stroke-linecap="round"/>
+
+            <!-- ─ Woman Right ─ -->
+            <rect x="324" y="262" width="74" height="100" rx="16" fill="#7a6055"/>
+            <rect x="329" y="358" width="26" height="84" rx="11" fill="#c97a5a"/>
+            <rect x="359" y="358" width="26" height="84" rx="11" fill="#c97a5a"/>
+            <circle cx="361" cy="215" r="44" fill="#e8c8a8"/>
+            <ellipse cx="361" cy="188" rx="44" ry="24" fill="#5a3a1a"/>
+            <rect x="344" y="181" width="34" height="44" rx="9" fill="#5a3a1a"/>
+            <circle cx="348" cy="216" r="4.5" fill="#3d2314"/>
+            <circle cx="374" cy="216" r="4.5" fill="#3d2314"/>
+            <path d="M351 232 Q361 241 371 232" stroke="#3d2314" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+            <line x1="398" y1="295" x2="436" y2="254" stroke="#e8c8a8" stroke-width="13" stroke-linecap="round"/>
+
+            <!-- sparkles & stars -->
+            <text x="142" y="180" font-size="24" fill="#e8435a">✦</text>
+            <text x="304" y="170" font-size="20" fill="#c9882a">✦</text>
+            <text x="232" y="94"  font-size="18" fill="#e8435a">✦</text>
+            <text x="54"  y="220" font-size="14" fill="#c9882a">✦</text>
+            <text x="398" y="190" font-size="14" fill="#e8435a">✦</text>
+
+            <!-- banner at bottom -->
+            <rect x="104" y="472" width="272" height="52" rx="26" fill="#e8435a"/>
+            <text x="240" y="504" text-anchor="middle" font-family="Georgia,serif" font-size="20" font-weight="bold" fill="white">She Can! 💛</text>
+          </svg>
+        </div>
+        <div class="hero-badge">
+          <span style="font-size:1.8rem">🏛️</span>
+          <div class="badge-text">
+            <strong>Govt. Registered NGO</strong>
+            <span>Societies Registration Act, 1860</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Impact Strip -->
+  <div class="impact-strip">
+    <div class="impact-grid">
+  <div class="reveal">
+    <div class="impact-num" data-target="500">0</div>
+    <div class="impact-lbl">Women Empowerment</div>
+  </div>
+
+  <div class="reveal">
+    <div class="impact-num">📚</div>
+    <div class="impact-lbl">Educational Programs</div>
+  </div>
+
+  <div class="reveal">
+    <div class="impact-num">💼</div>
+    <div class="impact-lbl">Skill Development</div>
+  </div>
+
+  <div class="reveal">
+    <div class="impact-num">💛</div>
+    <div class="impact-lbl">Volunteer Community</div>
+  </div>
+</div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     ABOUT
+══════════════════════════════════════ -->
+<section id="about" class="section" style="background:var(--white); max-width:none;">
+  <div class="container">
+    <div class="about-grid">
+
+      <!-- Illustration -->
+      <div class="about-illus-wrap reveal">
+        <div class="about-blob1"></div>
+        <div class="about-illus">
+          <svg viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg">
+            <rect width="480" height="480" fill="#fdf6f0"/>
+            <circle cx="370" cy="55"  r="110" fill="rgba(232,67,90,0.09)"/>
+            <circle cx="70"  cy="390" r="85"  fill="rgba(201,136,42,0.09)"/>
+
+            <!-- desk -->
+            <rect x="70"  y="308" width="340" height="14" rx="7" fill="#c9882a" opacity="0.55"/>
+            <rect x="110" y="322" width="12"  height="80" rx="6" fill="#c9882a" opacity="0.45"/>
+            <rect x="358" y="322" width="12"  height="80" rx="6" fill="#c9882a" opacity="0.45"/>
+
+            <!-- laptop -->
+            <rect x="186" y="244" width="108" height="66" rx="7" fill="#3d2314"/>
+            <rect x="192" y="250" width="96"  height="54" rx="5" fill="#1a0a00"/>
+            <rect x="170" y="310" width="140" height="9"  rx="5" fill="#5a3a1a"/>
+            <!-- screen glow lines -->
+            <rect x="198" y="257" width="65" height="7" rx="3" fill="#e8435a" opacity="0.85"/>
+            <rect x="198" y="268" width="84" height="4" rx="2" fill="rgba(255,255,255,0.28)"/>
+            <rect x="198" y="276" width="68" height="4" rx="2" fill="rgba(255,255,255,0.18)"/>
+            <rect x="198" y="284" width="78" height="4" rx="2" fill="rgba(255,255,255,0.18)"/>
+            <rect x="198" y="292" width="56" height="4" rx="2" fill="rgba(255,255,255,0.14)"/>
+
+            <!-- woman sitting -->
+            <circle cx="240" cy="173" r="50" fill="#e8b89a"/>
+            <rect x="200" y="220" width="80" height="95" rx="16" fill="#e8435a"/>
+            <!-- arms to keyboard -->
+            <line x1="200" y1="245" x2="168" y2="285" stroke="#e8b89a" stroke-width="16" stroke-linecap="round"/>
+            <line x1="280" y1="245" x2="312" y2="285" stroke="#e8b89a" stroke-width="16" stroke-linecap="round"/>
+            <!-- hair -->
+            <ellipse cx="240" cy="146" rx="50" ry="26" fill="#2a1a0e"/>
+            <rect x="190" y="140" width="18" height="46" rx="9" fill="#2a1a0e"/>
+            <rect x="272" y="140" width="18" height="46" rx="9" fill="#2a1a0e"/>
+            <!-- face -->
+            <circle cx="225" cy="174" r="5"   fill="#3d2314"/>
+            <circle cx="255" cy="174" r="5"   fill="#3d2314"/>
+            <path d="M229 190 Q240 200 251 190" stroke="#3d2314" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+            <!-- book on desk -->
+            <rect x="116" y="278" width="56"  height="34" rx="5" fill="#c9882a"/>
+            <rect x="143" y="278" width="3"   height="34" fill="rgba(0,0,0,0.18)"/>
+            <rect x="122" y="284" width="17"  height="4"  rx="2" fill="rgba(255,255,255,0.35)"/>
+            <rect x="122" y="292" width="14"  height="3"  rx="1" fill="rgba(255,255,255,0.25)"/>
+
+            <!-- lightbulb -->
+            <circle cx="366" cy="154" r="32" fill="#fff9e6" stroke="#c9882a" stroke-width="3"/>
+            <text x="366" y="164" text-anchor="middle" font-size="24">💡</text>
+
+            <!-- sparkles -->
+            <text x="122" y="158" font-size="20" fill="#e8435a">♥</text>
+            <text x="340" y="240" font-size="16" fill="#e8435a">✦</text>
+            <text x="90"  y="238" font-size="18" fill="#c9882a">✦</text>
+            <text x="380" y="80"  font-size="14" fill="#e8435a">✦</text>
+
+            <!-- label -->
+            <rect x="128" y="410" width="224" height="46" rx="23" fill="rgba(232,67,90,0.11)" stroke="#e8435a" stroke-width="1.5"/>
+            <text x="240" y="438" text-anchor="middle" font-family="Georgia,serif" font-size="15" fill="#e8435a" font-weight="bold">Empowering Women 🌸</text>
+          </svg>
+        </div>
+        <div class="about-blob2"></div>
+      </div>
+
+      <!-- Text -->
+      <div class="about-text reveal">
+        <span class="section-tag">About Us</span>
+        <h2>Our <em>Mission</em> &amp;<br>Our Story</h2>
+        <div class="divider"></div>
+        <p>She Can Foundation is a <strong>Government Registered NGO</strong> under the Societies Registration Act, 1860, dedicated to supporting and empowering women through education, awareness, and community initiatives.</p>
+        <p>Our mission is to provide education, training, and resources to help women from marginalized communities overcome obstacles and achieve their full potential. We work to promote gender equality, increase access to healthcare and education, and provide opportunities for economic growth.</p>
+        <p>Through our programs and initiatives, we aim to create a world where every woman has the resources and support she needs to succeed — one step at a time.</p>
+        <div class="values-grid">
+          <div class="value-card"><div class="icon">📚</div><h4>Education</h4><p>Knowledge opens every door.</p></div>
+          <div class="value-card"><div class="icon">⚖️</div><h4>Gender Equality</h4><p>Equal rights for every woman.</p></div>
+          <div class="value-card"><div class="icon">🌱</div><h4>Sustainability</h4><p>Long-term, lasting impact.</p></div>
+          <div class="value-card"><div class="icon">❤️</div><h4>Compassion</h4><p>Led by empathy and care.</p></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     PROGRAMS
+══════════════════════════════════════ -->
+<section id="programs" class="section" style="max-width:none;">
+  <div class="container">
+    <div class="programs-header text-center reveal">
+      <span class="section-tag">What We Do</span>
+      <h2>Our <em>Programs</em></h2>
+      <div class="divider center"></div>
+      <p class="text-muted" style="line-height:1.8;">Life-changing initiatives designed to address the real challenges women face today.</p>
+    </div>
+
+    <div class="programs-grid">
+      <div class="prog-card reveal">
+        <div class="prog-icon">🩸</div>
+        <h3>Dignity Kits</h3>
+        <p>We organize awareness workshops and dignity kit initiatives aimed at supporting menstrual hygiene and education for young women.</p>
+        <a href="#" class="prog-link" onclick="goTo('volunteer');return false;">Get Involved →</a>
+      </div>
+      <div class="prog-card reveal">
+        <div class="prog-icon">📚</div>
+        <h3>Education &amp; Literacy</h3>
+        <p>We provide access to quality education, skill-building workshops, and scholarships for women and girls in underserved communities across the India.</p>
+        <a href="#" class="prog-link" onclick="goTo('volunteer');return false;">Get Involved →</a>
+      </div>
+      <div class="prog-card reveal">
+        <div class="prog-icon">💼</div>
+        <h3>Economic Empowerment</h3>
+        <p>Business training, mentorship programs, and resources that help women from marginalized communities achieve economic independence and growth.</p>
+        <a href="#" class="prog-link" onclick="goTo('volunteer');return false;">Get Involved →</a>
+      </div>
+      <div class="prog-card reveal">
+        <div class="prog-icon">🏥</div>
+        <h3>Health &amp; Wellness</h3>
+        <p>Free health awareness camps, menstrual hygiene education, and healthcare resources ensuring women can access the care and information they deserve.</p>
+        <a href="#" class="prog-link" onclick="goTo('volunteer');return false;">Get Involved →</a>
+      </div>
+      <div class="prog-card reveal">
+        <div class="prog-icon">🎤</div>
+        <h3>Leadership &amp; Voice</h3>
+        <p>Advocacy training and community leadership programs that amplify women's voices, giving them the confidence and tools to lead change at every level.</p>
+        <a href="#" class="prog-link" onclick="goTo('volunteer');return false;">Get Involved →</a>
+      </div>
+      <div class="prog-card reveal">
+        <div class="prog-icon">🌍</div>
+        <h3>Community Network</h3>
+        <p>A growing community of volunteers, mentors, and change-makers united in the mission to empower women and build a brighter, more equitable future for all.</p>
+        <a href="#" class="prog-link" onclick="goTo('volunteer');return false;">Get Involved →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     STORIES
+══════════════════════════════════════ -->
+<section id="stories" class="section" style="background:var(--warm); max-width:none;">
+  <div class="container">
+    <div class="stories-header text-center reveal">
+      <span class="section-tag">Impact Stories</span>
+      <h2>Voices of <em>Change</em></h2>
+      <div class="divider center"></div>
+      <p class="text-muted" style="line-height:1.8;">Stories and messages inspired by women empowerment initiatives and community support programs.</p>
+    </div>
+
+    <div class="stories-grid">
+      <div class="story-card reveal">
+        <div class="quote-mark">"</div>
+        <p>Supporting women with confidence, education, and opportunities can create meaningful social change in communities.</p>
+        <div class="story-author">
+          <div class="avatar">P</div>
+          <div>
+            <div class="author-name">Volunteer Story</div>
+            <div class="author-role">Community Support Program</div>
+          </div>
+        </div>
+      </div>
+      <div class="story-card reveal">
+        <div class="quote-mark">"</div>
+        <p>Educational support programs help women continue learning and build a brighter future for themselves.</p>
+        <div class="story-author">
+          <div class="avatar" style="background:#c9882a;">A</div>
+          <div>
+            <div class="author-name">Education Initiative</div>
+            <div class="author-role">Women Empowerment Program</div>
+          </div>
+        </div>
+      </div>
+      <div class="story-card reveal">
+        <div class="quote-mark">"</div>
+        <p>Health awareness and hygiene initiatives encourage better education, confidence, and wellbeing among young women.</p>
+        <div class="story-author">
+          <div class="avatar" style="background:#7a6055;">R</div>
+          <div>
+            <div class="author-name">Health Awareness</div>
+            <div class="author-role">Dignity Kit Campaign</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     VOLUNTEER / JOIN US
+══════════════════════════════════════ -->
+<section id="volunteer" class="section" style="background:var(--white); max-width:none;">
+  <div class="container">
+    <div class="vol-grid">
+
+      <!-- Info -->
+      <div class="vol-info reveal">
+        <span class="section-tag">Join The Movement</span>
+        <h2>Become a <em>Volunteer</em></h2>
+        <div class="divider"></div>
+        <p>Every great change starts with one person deciding to show up. Whether you can give an hour a week or a full summer, your contribution makes a real difference in the lives of women across India and the world.</p>
+        <p>Join our team and make a difference — bring your time, skills, and passion to help create positive change.</p>
+        <div class="perks">
+          <div class="perk">
+            <div class="perk-icon">🎓</div>
+            <div>
+              <div class="perk-title">Certificate of Volunteering</div>
+              <div class="perk-sub">Recognised credentials for your portfolio</div>
+            </div>
+          </div>
+          <div class="perk">
+            <div class="perk-icon">🌐</div>
+            <div>
+              <div class="perk-title">Global Community</div>
+              <div class="perk-sub">Connect with change-makers worldwide</div>
+            </div>
+          </div>
+          <div class="perk">
+            <div class="perk-icon">🚀</div>
+            <div>
+              <div class="perk-title">Skill Development</div>
+              <div class="perk-sub">Grow professionally while giving back</div>
+            </div>
+          </div>
+          <div class="perk">
+            <div class="perk-icon">💛</div>
+            <div>
+              <div class="perk-title">Real Impact</div>
+              <div class="perk-sub">Every hour you give changes a life</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Form -->
+      <div class="vol-form reveal">
+        <h3>Sign Up to Volunteer</h3>
+        <div class="form-group">
+          <label>Full Name *</label>
+          <input type="text" id="vol-name" placeholder="Your full name" required/>
+        </div>
+        <div class="form-group">
+          <label>Email Address *</label>
+          <input type="email" id="vol-email" placeholder="you@example.com" required/>
+        </div>
+        <div class="form-group">
+          <label>Phone Number</label>
+          <input type="tel" id="vol-phone" placeholder="+91 98765 43210" />
+        </div>
+        <div class="form-group">
+          <label>How would you like to help? *</label>
+          <select id="vol-role">
+            <option value="">Select an area</option>
+            <option>Education &amp; Tutoring</option>
+            <option>Health Awareness Camps</option>
+            <option>Dignity Kit Distribution</option>
+            <option>Economic Mentoring</option>
+            <option>Event Coordination</option>
+            <option>Fundraising</option>
+            <option>Social Media &amp; Communications</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Tell us about yourself</label>
+          <textarea id="vol-msg" placeholder="Your background, skills, and why you want to volunteer..."></textarea>
+        </div>
+        <button class="form-submit" onclick="submitForm()">Submit Application 💛</button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     FOOTER
+══════════════════════════════════════ -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <h3>She Can Foundation</h3>
+      <p>A Govt. Registered NGO under the Societies Registration Act, 1860 dedicated to supporting and empowering women through education, awareness, and community initiatives.</p>
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/company/shecanfoundation" target="_blank" class="social-btn" title="LinkedIn">💼</a>
+        <a href="https://shecanfoundation.org" target="_blank" class="social-btn" title="Website">🌐</a>
+        <a href="javascript:void(0)" class="social-btn" title="Instagram">📸</a>
+        <a href="javascript:void(0)" class="social-btn" title="Facebook">👥</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#" onclick="goTo('home');return false;">Home</a></li>
+        <li><a href="#" onclick="goTo('about');return false;">About Us</a></li>
+        <li><a href="#" onclick="goTo('programs');return false;">Our Programs</a></li>
+        <li><a href="#" onclick="goTo('stories');return false;">Impact Stories</a></li>
+        <li><a href="#" onclick="goTo('volunteer');return false;">Volunteer</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Our Programs</h4>
+      <ul>
+        <li><a href="#">Dignity Kits</a></li>
+        <li><a href="#">Education</a></li>
+        <li><a href="#">Health Awareness</a></li>
+        <li><a href="#">Economic Growth</a></li>
+        <li><a href="#">Leadership</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact Us</h4>
+      <ul>
+        <li><a href="https://shecanfoundation.org" target="_blank">🌐 shecanfoundation.org</a></li>
+        <li><a href="https://www.linkedin.com/company/shecanfoundation" target="_blank">💼 LinkedIn</a></li>
+        <li><a href="#">📋 Registered under Societies Registration Act, 1860</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 She Can Foundation. All rights reserved. Made with <span style="color:#f7a8b3;">❤️</span> for women everywhere.</p>
+    <div>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Use</a>
+    </div>
+  </div>
+</footer>
+
+
+<!-- TOAST -->
+<div class="toast" id="toast">
+  <span id="toast-icon">🎉</span>
+  <span id="toast-msg">Thank you!</span>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
